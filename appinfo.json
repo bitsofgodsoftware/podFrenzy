@@ -1,0 +1,37 @@
+{
+  "id":"com.bitsofgodsoftware.podfrenzy",
+  "version":"1.0.6",
+  "title":"podFrenzy",
+  "vendor":"Bits Of God Software, LLC",
+  "versionreleasedate": "16-Sep-2011",
+  "vendorurl":"http://www.bitsofgodsoftware.com/podFrenzy",
+  "vendoremail":"help@bitsofgodsoftware.com",
+  "main":"index.html",
+  "icon":"icon.png",
+  "miniicon":"miniicon.png",
+  "type":"web",
+  "theme":"light",
+  "noWindow":true,
+  "noDeprecatedStyles":true,
+  "keywords":["podFrenzy", "podcast", "podder", "drPodder", "dr."],
+
+  "smallicon": "icon32.png",
+  "copyright": "&copy; Copyright 2011 Bits Of God Software, LLC<br>&copy; Copyright 2010 Jamie Hatfield<br><br>podFrenzy is an open source derivative of drPodder.<br><br>drPodder is an open source podcatcher.  It is licensed under the GNU General Public License (GPL) Version 3.  The full text of the GPLv3 can be found at: <a href='http://www.gnu.org/licenses/gpl-3.0-standalone.html'>http://www.gnu.org/licenses/gpl-3.0.txt</a>.<br><br>drPodder Logo Design: <a href='http://jamie3d.com/'>Jamie Hamel-Smith</a><br>Original Logo Concept: <a href='http://www.userinterfaceicons.com/preview.php'>UII</a><br><br>Translations:<br>  German: Toby (tklr@P|C)<br>  Spain-Spanish: Alejandro (erdosh@P|C)<br>  Latino-Spanish: Eli (Spyderekz@P|C)<br>  French: Yannick (yannick56@P|C)<br>  Klingon: Michael (roneyii@P|C)/Chris (qurgh@P|C)",
+  "support": {
+    "email": {
+      "address": "podFrenzy@bitsofgodsoftware.com",
+      "subject": "podFrenzy Support"
+    },
+    "resources": [{
+      "type": "web",
+      "label": "Help Topics",
+      "url": "http://www.bitsofgodsoftware.com/podFrenzy#help"
+    },
+    {
+      "type": "web",
+      "label": "FAQ",
+      "url": "http://www.bitsofgodsoftware.com/podFrenzy#faq"
+    }]
+  },
+  "uiRevision": 2
+}

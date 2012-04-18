@@ -1,0 +1,638 @@
+/* shouldn't have to do this, but to get the menu to show up lower-case,
+   I had to override this.  Otherwise, people would be naming the file drPodder.Xml for import
+*/
+.title {
+  text-transform: none;
+}
+
+.palm-row {
+	margin-top: 0px;
+}
+
+.palm-row-wrapper {
+	margin-top: 0px;
+}
+
+.feedlist-icon {
+    margin-top: 1px;
+	width: 56px;
+    height: 56px;
+}
+
+.feedLine {
+	height: 60px;
+}
+
+.feedTitle {
+	height: 30px;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+.feedDetails {
+	/*margin-left: 70px;*/
+	padding-left: 10px;
+	font-size: 75%;
+}
+
+.feedStatsSimpleContainer {
+	height: 40px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	float: right;
+}
+
+.feedStatsSimpleBackground {
+	height: 40px;
+	width: 45px;
+	-webkit-border-image: url(../images/simple-button.png) 3 3 3 3 stretch stretch;
+	-webkit-box-sizing: border-box;
+	border-width: 3px 3px 3px 3px;
+}
+
+.feedStatsSimpleNew {
+	padding-top: 8px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.feedStatsContainer {
+	height: 58px;
+	font-size: 14px;
+	margin-right: 9px;
+	margin-top: 0px;
+	display: inline-block;
+	float: right;
+	-webkit-border-image: url(../images/simple-button.png) 3 3 3 3 stretch stretch;
+	-webkit-box-sizing: border-box;
+	border-width: 3px 3px 3px 3px;
+}
+
+.feedStatsNew,
+.feedStatsDownloaded,
+.feedStatsStarted {
+	width: 55px;
+	text-align: right;
+}
+
+.feedStatsDownloaded {
+	color: green;
+}
+
+.feedStatsNew {
+	color: red;
+}
+
+.feedStatsStarted {
+	color: blue;
+}
+
+.feedStatsIcon {
+	padding-top: 2px;
+	padding-left: 2px;
+	margin-left: 2px;
+	display: inline-block;
+	float: right;
+}
+
+.downloadCount {
+	padding-top: 7px;
+	text-align: center;
+	font-size: 65%;
+}
+
+
+/*
+.feedLine {
+	width: 70%
+}
+
+*/
+
+.topContent {
+  width:100%;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  position:fixed;
+  top:0;
+  z-index: 10000;
+  background-color:#e4e4e4;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+}
+
+.playbackStatusMessage {
+  z-index: 1;
+  position: absolute;
+  opacity: 0.85;
+  display: inline-block;
+  -webkit-border-image: url(../images/simple-button.png) 3 3 3 3 stretch stretch;
+  -webkit-box-sizing: border-box;
+  border-width: 3px 3px 3px 3px;
+
+  margin-top: -22px;
+  height: 32px;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+}
+
+.stream-info {
+	padding-bottom: 12px;
+}
+
+.stream-info .elapsed,
+.stream-info .duration {
+	font-size: 14px;
+	vertical-align: middle;
+	color: black;
+}
+
+.stream-info .elapsed {
+	text-align: left;
+}
+
+.stream-info .elapsed,
+.stream-info .duration {
+	display: table-cell;
+	text-align: center;
+	width: 20%;
+}
+
+.portrait > .progress-widget-width {
+	width: 200px;
+}
+
+.portrait320 > .progress-widget-width {
+	width: 200px;
+}
+
+.portrait1024 > .progress-widget-width {
+	width: 640px;
+}
+
+.landscape480 > .progress-widget-width {
+	width: 360px;
+}
+
+.landscape400 > .progress-widget-width {
+	width: 280px;
+}
+
+.landscape768 > .progress-widget-width {
+	width: 980px;
+}
+
+.episodeStatus {
+    height: 32px;
+	background: center center no-repeat;
+}
+
+.episodeLine {
+	/*height: 50px;*/
+	padding-left: 5px;
+}
+
+.episodeTitle {
+	padding-left: 2px;
+	margin-top: 4px;
+	/*height: 52px;*/
+	color: gray;
+	font-size: 85%;
+}
+
+.episodeDetails {
+	padding-left: 12px;
+	margin-bottom: 4px;
+	font-size: 75%;
+	color: gray;
+}
+
+.bookmarkDonePlaylist,
+.bookmarkDone,
+.progressDonePlaylist,
+.progressDone {
+	position: absolute;
+	left: 0px;
+	width: 0%;
+	height: 52px;
+	margin-top: -4px;
+	display: inline-block;
+	float: left;
+}
+
+.progressDonePlaylist,
+.progressDone {
+	background-color: yellow;
+	z-index: -1;
+}
+
+.bookmarkDonePlaylist,
+.bookmarkDone {
+	background-color: lightblue;
+	z-index: -2;
+}
+
+.progressDonePlaylist,
+.bookmarkDonePlaylist {
+	left: 55px;
+}
+
+.episodelist-icon {
+    margin-top: -2px;
+    width: 48px;
+    height: 48px;
+}
+
+
+.dashboard-icon-drpodder {
+  background: url(../images/dashboard-icon.png);
+}
+
+.feed-search-scroller {
+  height: 345px;
+}
+
+.search-provider-label-spacer {
+  font-size: 70%;
+  margin-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.search-provider-label{
+  z-index:999;
+  background-color:#e4e4e4;
+  position: fixed;
+  padding-bottom: 5px;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 70%;
+  border-top-style: solid;
+  border-top-width: thin;
+}
+
+.search-box {
+  z-index:999;
+  background-color:#e4e4e4;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.drpodder-large-logo {
+  background: url(../images/drpodder-icon.png) top center no-repeat;
+  height: auto;
+  width:auto;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.drpodder-large-logo-tp {
+  background: url(../images/drpodder-icon.png) top center no-repeat;
+  height: 60%;
+  width: 60%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.loading-scrim {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.titleMessage,
+.loadingMessage,
+.versionMessage {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.titleMessage {
+  top: 60%;
+  font-size: 200%;
+}
+
+.versionMessage {
+  top: 72%;
+}
+
+.loadingMessage {
+  top: 79%;
+}
+
+.titleMessage-tp,
+.loadingMessage-tp,
+.versionMessage-tp {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.titleMessage-tp {
+  top: 100%;
+  font-size: 200%;
+}
+
+.versionMessage-tp {
+  top: 112%;
+}
+
+.loadingMessage-tp {
+  top: 118%;
+}
+
+.titlePopup1 {
+  top: 34px;
+  left: 30px;
+}
+
+.feedSelected {
+	outline-style: inset;
+	outline-color: blue;
+	outline-width: 2px;
+	width: 100%;
+}
+
+.palm-row.selected {
+  -webkit-border-image: url(../images/selection-gradient-default.png) 24 20 24 20 repeat repeat;
+}
+
+.palm-group .palm-row.selected.first {
+  -webkit-border-image: url(../images/selection-gradient-first.png) 24 20 24 20 repeat repeat;
+}
+.palm-group .palm-row.selected.single {
+  -webkit-border-image: url(../images/selection-gradient-single.png) 24 20 24 20 repeat repeat;
+}
+.palm-group .palm-row.selected.last {
+  -webkit-border-image: url(../images/selection-gradient-last.png) 24 20 24 20 repeat repeat;
+}
+
+.scene-fade-top {
+  position: fixed;
+  top: 0px;
+  z-index: 100000;
+  height: 54px;
+  width: 100%;
+  background: url(../images/scene-fade-top.png) top center repeat-x;
+  -webkit-palm-mouse-target: ignore;
+}
+
+.scene-fade-bottom {
+  position: fixed;
+  bottom: 24px;
+  z-index: 100000;
+  height: 54px;
+  width: 100%;
+  background: url(../images/scene-fade-bottom.png) top center repeat-x;
+  -webkit-palm-mouse-target: ignore;
+}
+
+.dashboard-notification-module.music-player .dashboard-title,
+.dashboard-notification-module.music-player .palm-dashboard-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 175px;
+}
+
+.dashboard-notification-module .palm-dashboard-controls-container {
+  position: absolute;
+  right: 5px;
+  z-index: 2;
+}
+
+.dashboard-notification-module .palm-dashboard-controls-container div {
+  width: 48px;
+  height: 48px;
+  float: left;
+}
+
+.dashboard-notification-module .palm-dashboard-controls-container .previous {
+  background: url(../images/dashboard/previous-button.png) top left no-repeat;
+}
+
+.dashboard-notification-module .palm-dashboard-controls-container .previous:active {
+  background: url(../images/dashboard/previous-button.png) bottom left no-repeat;
+}
+
+.dashboard-notification-module .palm-dashboard-controls-container .pause {
+  background: url(../images/dashboard/pause-button.png) top left no-repeat;
+}
+
+.dashboard-notification-module .palm-dashboard-controls-container .pause:active {
+  background: url(../images/dashboard/pause-button.png) bottom left no-repeat;
+}
+
+.dashboard-notification-module .palm-dashboard-controls-container .play {
+  background: url(../images/dashboard/play-button.png) top left no-repeat;
+}
+
+.dashboard-notification-module .palm-dashboard-controls-container .play:active {
+  background: url(../images/dashboard/play-button.png) bottom left no-repeat;
+}
+
+.dashboard-notification-module .palm-dashboard-controls-container .next {
+  background: url(../images/dashboard/next-button.png) top left no-repeat;
+}
+
+.dashboard-notification-module .palm-dashboard-controls-container .next:active {
+  background: url(../images/dashboard/next-button.png) bottom left no-repeat;
+}
+
+/*  Support Page CSS  */
+.img_icon {
+	position:absolute;
+	left:10px;
+	top:5px;
+	width:32px; 
+	height:32px;
+	background: url(../icon32x32.png) no-repeat center ;
+	padding: 10px 0px 0px 5px;
+	float:left;	
+}
+.list_scene {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-info.png) no-repeat bottom;
+	vertical-align:bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.list_faq {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-faq.png) no-repeat bottom;
+	vertical-align:bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.list_credits {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-credits.png) no-repeat bottom;
+	vertical-align:bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_email {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-email.png) no-repeat bottom;
+	vertical-align:bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_phone {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-phone.png) no-repeat  bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_web {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-web.png) no-repeat  bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+
+
+/* Page Headers
+ */
+
+.van-page-header {
+	background: none;   
+	padding: 0;                          
+	border-width: 35px 24px 17px 24px;                        
+	-webkit-border-image: url(../images/header.png) 35 24 17 24 repeat stretch;  
+	-webkit-box-sizing: border-box;
+	min-height: 25px;
+}                       
+                  
+.van-page-header.multi-line {
+	background: none;   
+	padding: 0;                          
+	border-width: 35px 24px 17px 24px;                        
+	-webkit-border-image: url(../images/header.png) 35 24 17 24 repeat stretch;  
+	-webkit-box-sizing: border-box;
+	min-height: 50px;
+}
+
+.palm-filter-open .van-page-header {
+	-webkit-border-image: url(../images/header.png) 35 24 13 24 repeat stretch;
+}
+
+.van-page-header-wrapper {      
+	position: relative;
+	min-height: 52px;
+	margin: -35px -24px -13px -24px;
+}                        
+.van-page-header .icon {     
+	position: absolute;                  
+	top: 0px;
+	left: 10px;
+	width: 65px;
+	min-height: 65px;
+	background: url(../icon.png) center center no-repeat;
+}   
+       
+.van-page-header .icon.multi-line {     
+	position: absolute;                  
+	top: 10px;
+	left: 8px;
+	width: 70px;
+	min-height: 65px;
+	background: url(../icon.png) center center no-repeat;
+} 
+
+.van-page-header .headerback{     
+	position: absolute;                  
+	top: 7px;
+	right: 10px;
+	width: 64px;
+	min-height: 40px;
+	background: url(../images/back-button-black1.png) center center no-repeat;
+}   
+       
+.van-page-header .headerback.multi-line {     
+	position: absolute;                  
+	top: 10px;
+	right: 8px;
+	width: 70px;
+	min-height: 65px;
+	background: url(../images/back-button-black1.png) center center no-repeat;
+} 
+
+
+.van-page-header .title {    
+	min-width: 200px;
+	top: 7px;
+	left: 65px;
+	right: 0px;       
+	padding: 5px 16px 10px 16px;      
+	font-size: 20px;
+	text-shadow: #f2f2f2 0px 1px 0px;
+	-webkit-palm-mouse-target: ignore;
+}
+
+.van-page-header:not(.multi-line) .title,
+.van-page-header.multi-line .title.truncating-text {
+	position: absolute;
+	overflow: hidden;
+	white-space: nowrap; 
+	text-overflow: ellipsis;
+}
+
+.van-page-header.multi-line .title {    
+	position: absolute;   
+}
+
+.van-page-header .title.left {    
+	padding-left: 0px;
+}                  
+.van-page-header .title.right {    
+	text-align: right;
+}
+.van-page-header.multi-line .subtitle {
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 10px 0px 0px 57px;        
+	font-size: 14px;
+	text-shadow: none;             
+}          
+.van-page-header.multi-line .subtitle2 {
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 0px 0px 0px 168px;        
+	font-size: 14px;
+	color: #ffffff;       
+	text-shadow: none;             
+}  

@@ -1,0 +1,19 @@
+<div class="palm-row" x-mojo-tap-highlight="momentary">
+	<div class="palm-row-wrapper">
+		<div class="palm-dashboard-icon-container feedlist-icon-container">
+			<img class="palm-dashboard-icon feedlist-icon" src="#{albumArtFormatted}"/>
+		</div>
+		<div class="feedStatsSimpleContainer right">
+			<div class="feedStatsSimpleBackground">
+				<div class="feedStatsSimpleNew">#{numNew}</div>
+			</div>
+		</div>
+	    <div x-mojo-element="Spinner" class="right" name="refreshSpinner"></div>
+	    <div x-mojo-element="Spinner" class="downloadSpinner right" name="downloadSpinner"><div class="downloadCount">#{downloadCount}</div></div>
+
+		<div class="feedLine">
+			<div class="feedTitle truncating-text">#{title}</div>
+			<div class="feedDetails truncating-text">#{detailsFormatted}</div>
+		</div>
+	</div>
+</div>

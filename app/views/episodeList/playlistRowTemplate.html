@@ -1,0 +1,16 @@
+<div class="palm-row" x-mojo-tap-highlight="momentary">
+	<div class="palm-row-wrapper">
+		<div class="palm-dashboard-icon-container episodelist-icon-container">
+			<img class="palm-dashboard-icon episodelist-icon" src="#{albumArtFormatted}"/>
+		</div>
+    	<div id="statusIcon" class="episodeStatus icon right"
+			 style="background-image: url('images/#{statusIcon}')"></div>
+		<div x-mojo-element="Spinner" class="right" name="episodeSpinner"></div>
+		<div id="progressDiv" class="progressDonePlaylist truncating-text" style="width: #{downloadingPercentFormatted}%">&nbsp;</div>
+		<div id="bookmarkDiv" class="bookmarkDonePlaylist truncating-text" style="width: #{bookmarkPercentFormatted}%">&nbsp;</div>
+		<div>
+			<div class="episodeTitle truncating-text" style="color: #{indicatorColor}">#{titleFormatted}</div>
+			<div class="episodeDetails truncating-text" style="color: #{indicatorColor}">#{pubDateFormatted}</div>
+		</div>
+	</div>
+</div>

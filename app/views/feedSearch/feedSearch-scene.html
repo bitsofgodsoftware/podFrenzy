@@ -1,0 +1,33 @@
+<div class="search-box">
+<div id="searchBox" class="palm-group">
+    <div id="searchBoxTitle" class="palm-group-title"><span id="searchPodcastDirectory">Search Podcast Directory</span></div>
+    <div class="palm-list">
+        <div id="providerDiv" class="palm-row first">
+            <div class="palm-row-wrapper">
+                <div x-mojo-element="ListSelector" id="searchProviderList"></div>
+			</div>
+        </div>
+        <div id="filterDiv" class="palm-row">
+            <div class="palm-row-wrapper">
+                <div x-mojo-element="ListSelector" id="filterList"></div>
+			</div>
+        </div>
+        <div class="palm-row last">
+            <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+                <div class="title">
+                    <div id="keyword" class="label right">Keyword &nbsp; &nbsp;</div>
+					<div x-mojo-element="TextField" id="keywordField"></div>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div id="searchBoxSpacer"></div>
+
+<div id="sceneFadeTop" class="scene-fade-top" x-mojo-scroll-fade="top"></div>
+<div id="feedSearchList" x-mojo-element="List"></div>
+<div class="scene-fade-bottom" x-mojo-scroll-fade="bottom"></div>
+
+<div class="search-provider-label-spacer"></div>
+<div id="providerLabel" class="search-provider-label"></div>

@@ -1,0 +1,34 @@
+<div class="palm-page-header">
+    <div class="palm-page-header-wrapper">
+        <div id="dialogTitle" class="title">Add Dynamic Playlist</div>
+    </div>
+</div>
+
+<div class="scene-fade-top" x-mojo-scroll-fade="top"></div>
+
+<div class="palm-group unlabeled">
+    <div class="palm-list">
+        <div id="newFeedDiv" class="palm-row single">
+            <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+                <div class="title">
+                    <div id="title" class="label right">Title</div>
+                    <div x-mojo-element="TextField" id="newPlaylistName"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="palm-row only">
+    <div class="palm-row-wrapper">
+        <div x-mojo-element="ToggleButton" id="includeAllToggle"></div>
+        <div id="includeAllFeeds" class="title">Include All Feeds</div>
+    </div>
+</div>
+<div id="feedListDiv" class="palm-row only">
+    <div class="palm-group">
+        <div class="palm-group-title"><span id="selectFeeds">Select Feeds To Include In Playlist</span></div>
+            <div id="feedList" x-mojo-element="List"></div>
+        </div>
+    </div>
+</div>

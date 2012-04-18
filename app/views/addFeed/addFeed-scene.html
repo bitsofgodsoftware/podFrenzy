@@ -1,0 +1,94 @@
+<div class="palm-page-header">
+    <div class="palm-page-header-wrapper">
+        <div id="dialogTitle" class="title">Add Podcast XML Feed</div>
+    </div>
+</div>
+
+<div class="palm-group unlabeled">
+    <!--div class="palm-group-title"><span>Feed Details</span></div-->
+    <div class="palm-list">
+        <div class="palm-row first">
+            <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+                <div class="title">
+                    <div id="urlLabel" class="label right">URL</div>
+                    <div x-mojo-element="TextField" id="newFeedURL"></div>
+                </div>
+            </div>
+        </div>
+        <div id="usernameDiv" class="palm-row">
+            <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+                <div class="title">
+                    <div id="usernameLabel" class="label right">Username</div>
+                    <div x-mojo-element="TextField" id="username"></div>
+                </div>
+            </div>
+        </div>
+        <div id="passwordDiv" class="palm-row">
+            <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+                <div class="title">
+                    <div id="passwordLabel" class="label right">Password</div>
+                    <div x-mojo-element="PasswordField" id="password"></div>
+                </div>
+            </div>
+        </div>
+        <div id="newFeedDiv" class="palm-row">
+            <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+                <div class="title">
+                    <div id="titleLabel" class="label right">Title</div>
+                    <div x-mojo-element="TextField" id="newFeedName"></div>
+                </div>
+            </div>
+        </div>
+        <div id="albumArtDiv" class="palm-row last">
+            <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+                <div class="title">
+                    <div id="iconLabel" class="label right">Icon</div>
+                    <div x-mojo-element="TextField" id="albumArt"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="palm-group">
+    <div class="palm-group-title"><span id="feedOptions">Feed Options</span></div>
+    <div class="palm-list">
+        <!--div class="palm-row first">
+            <div class="palm-row-wrapper">
+                <div x-mojo-element="ListSelector" id="maxDisplaySelector"></div>
+            </div>
+        </div-->
+        <div class="palm-row first">
+            <div class="palm-row-wrapper">
+                <div x-mojo-element="ToggleButton" id="autoDeleteToggle"></div>
+                <div id="deleteWhenFinished" class="title left">Delete when finished</div>
+            </div>
+        </div>
+        <div class="palm-row">
+            <div class="palm-row-wrapper">
+                <div x-mojo-element="ToggleButton" id="hideFilesToggle"></div>
+                <div id="hidePodcastFiles" class="title left">Hide Podcast Files</div>
+            </div>
+        </div>
+        <div id="autoDownloadRow" class="palm-row">
+            <div class="palm-row-wrapper">
+                <div x-mojo-element="ToggleButton" id="autoDownloadToggle"></div>
+                <div id="autoDownload" class="title left">Auto-Download</div>
+            </div>
+        </div>
+        <div id="maxDownloadsRow" class="palm-row last">
+            <div class="palm-row-wrapper">
+                <div x-mojo-element="ListSelector" id="maxDownloadsSelector"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="palm-group">
+    <div class="palm-group-title"><span id="episodeTitleReplacements">Episode Title Replacements</span></div>
+    <div class="palm-list">
+        <div id="replacementList" x-mojo-element="List"></div>
+    </div>
+</div>
+
+<div style="text-align: center;"><div id="addButton" x-mojo-element="Button"></div><div id="cancelButton" x-mojo-element="Button"></div></div>
